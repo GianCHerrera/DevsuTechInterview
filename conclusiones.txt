@@ -1,0 +1,14 @@
+Automatización E2E
+
+El framework de automatización fue sencillo de crear sin embargo la pagina https://www.saucedemo.com tiene un
+problema en su renderizado lo cual cypress no lo detecta de manera automatica, fue interesante descubrir
+que se requiere chromeWebSecurity: false en las configuraciones de cypress para que asi se pueda
+ejecutar de manera apropiada cada vez que se le requiera, a parte de esto no tuve ningun otro inconveniente
+con la automatización.
+
+Automatización API
+
+El framework Karate tambien fue sencillo de crear, se crean los nuevos usuarios con base en la hora actual
+teniendo en cuenta los segundos, por lo cual para el scenario de crear nuevos usuarios funcionará sin problemas.
+En conclusión, han sido ejercicios interesantes que permitieron demostrar que si tengo conocimiento
+a la hora de automatizar webs y api de manera practica y sencilla.
